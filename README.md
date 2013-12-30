@@ -30,7 +30,7 @@ The image object has the following properties:
     resize-max-height="300"
     resize-max-width="250"
     resize-quality="0.7" 
-	<strong>rotate-angle="90"</strong> />
+	rotate-angle="90" />
 Original <img ng-show="image2" ng-src="{{image2.url}}" type="{{image2.file.type}}" />
 Resized <img ng-show="image2" ng-src="{{image2.resized.dataURL}}" />
 ```
